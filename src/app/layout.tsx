@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/Favicon.jpeg",
+  },
   title: "Portfolio",
   description: "Portfolio of Anaya",
 };
