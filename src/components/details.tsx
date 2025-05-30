@@ -2,6 +2,11 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandX,
+  IconBrandReact,
+  IconBrandNextjs,
+  IconBrandTailwind,
+  IconBrandTypescript,
+  IconBrandJavascript,
 } from "@tabler/icons-react";
 
 export default function Details() {
@@ -11,6 +16,29 @@ export default function Details() {
     window.open(link)
     )
   }
+
+  const techlist = [
+    {
+      name: "Reactjs",
+      icon: <IconBrandReact />
+    },
+    {
+      name: "Nextjs",
+      icon: <IconBrandNextjs />
+    },
+    {
+      name: "Tailwind",
+      icon: <IconBrandTailwind />
+    },
+    {
+      name: "Typescript",
+      icon: <IconBrandTypescript />
+    },
+    {
+      name: "Javascript",
+      icon: <IconBrandJavascript />
+    },
+  ];
 
   const links = [
     {
@@ -88,6 +116,7 @@ export default function Details() {
         name,
         display,
         timeline,
-        projects
+        projects,
+        techlist
       }
 }

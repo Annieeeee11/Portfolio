@@ -3,7 +3,7 @@ import Details from "../details";
 export default function Projects() {
   const { handleClick, projects } = Details();
   return (
-    <div className="space-y-3 mb-8">
+    <div className="space-y-3 mb-7">
       {projects.map((project, index) => (
         <div
           key={index}

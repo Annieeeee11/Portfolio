@@ -4,6 +4,7 @@ import Details from "./details";
 import { FloatingDockDemo } from "./ui/float-bar";
 import Timeline from "./ui/timeline";
 import Projects from "./ui/projects";
+import { Tech } from "./ui/tech";
 
 export default function Portfolio() {
   const { name, display } = Details();
@@ -19,6 +20,7 @@ export default function Portfolio() {
 
         <Timeline />
         <Projects />
+        <Tech />
         <FloatingDockDemo />
       </div>
     </div>
