@@ -1,3 +1,4 @@
+import { IconBrandGithub } from "@tabler/icons-react";
 import Details from "../details";
 
 export default function Projects() {
@@ -16,7 +17,7 @@ export default function Projects() {
             <h3 className="text-xs font-medium text-white group-hover:text-gray-300 transition-colors">
               {project.name}
             </h3>
-            <span className="text-xs text-gray-600">{project.year}</span>
+              <span className="text-xs text-gray-600">{project.year}</span>
           </div>
           <p className="text-xs text-gray-500 mb-2 leading-relaxed">
             {project.description}
@@ -30,6 +31,7 @@ export default function Projects() {
                 {tech}
               </span>
             ))}
+            <a href={project.git} target="_blank" rel="noopener noreferrer"><IconBrandGithub className="h-4 w-full text-neutral-500 dark:text-neutral-300"/></a>
           </div>
         </div>
       ))}

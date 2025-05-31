@@ -85,28 +85,32 @@ export default function Details() {
           description: "Coming Soon..",
           tech: "Nextjs, Tailwindcss, Typescript, Shadcn",
           year: "2025",
-          link: "https://github.com/Annieeeee11" 
+          link: "https://github.com/Annieeeee11",
+          git: "https://github.com/Annieeeee11/yo_ui"
         },
         {
             name: "Project",
             description: "Coming Soon..",
             tech: "Reactjs, tailwindcss, typescript",
             year: "2024",
-            link: "https://github.com/Annieeeee11"
+            link: "https://github.com/Annieeeee11",
+            git: "https://github.com/Annieeeee11"
           },
           {
             name: "Project",
             description: "Coming Soon..",
             tech: "Rectjs, tailwindcss, typescript",
             year: "2024",
-            link: "https://github.com/Annieeeee11"
+            link: "https://github.com/Annieeeee11",
+            git: "https://github.com/Annieeeee11"
           },
           {
             name: "Project",
             description: "Coming Soon..",
             tech: "Nextjs, tailwindcss, typescript",
             year: "2024",
-            link: "https://github.com/Annieeeee11"
+            link: "https://github.com/Annieeeee11",
+            git: "https://github.com/Annieeeee11"
           },
       ]
 
