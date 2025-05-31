@@ -1,10 +1,11 @@
 import { IconBrandGithub } from "@tabler/icons-react";
 import Details from "../details";
-
+import Badge from "./badge";
 export default function Projects() {
   const { handleClick, projects } = Details();
   return (
     <div className="space-y-3 mb-7">
+       <h2 className="text-lg text-center font-medium text-white mb-4">Projects</h2>
       {projects.map((project, index) => (
         <div
           key={index}
@@ -17,7 +18,7 @@ export default function Projects() {
             <h3 className="text-xs font-medium text-white group-hover:text-gray-300 transition-colors">
               {project.name}
             </h3>
-              <span className="text-xs text-gray-600">{project.year}</span>
+              <Badge text={project.year} />
           </div>
           <p className="text-xs text-gray-500 mb-2 leading-relaxed">
             {project.description}

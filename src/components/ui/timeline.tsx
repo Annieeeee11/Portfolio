@@ -4,6 +4,7 @@ export default function Timeline() {
     const { timeline } = Details();
   return (
     <div>
+      <h2 className="text-lg text-center font-medium text-white mb-4">Experience</h2>
       <div className="relative mb-8">
             <div className="absolute left-4 top-0 bottom-0 w-px bg-gray-600" />
             <div className="space-y-6">
@@ -28,6 +29,7 @@ export default function Timeline() {
               ))}
             </div>
           </div>
+          <div className="w-8 h-px bg-gray-700 mx-auto mb-4" />
     </div>
   )
 }

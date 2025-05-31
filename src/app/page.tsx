@@ -1,7 +1,10 @@
-import Finall from "@/components/all";
+import Portfolio from "@/components/portfolio";
 
 export default function Home() {
   return (
-   <Finall />
+    <div>
+      <Portfolio />
+    </div>
+      
   );
 }

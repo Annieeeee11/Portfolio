@@ -5,6 +5,7 @@ export const Tech = () => {
 
   return (
     <div>
+      <h2 className="text-lg text-center font-medium text-white mb-2">Skills & Tools</h2>
       <div
         className="flex items-center justify-center gap-4 mb-4 mt-0 flex-wrap"
       >

@@ -7,6 +7,9 @@ import {
   IconBrandTailwind,
   IconBrandTypescript,
   IconBrandJavascript,
+  IconBrandVercel,
+  IconBrandGit,
+  IconBrandFramerMotion,
 } from "@tabler/icons-react";
 
 export default function Details() {
@@ -37,6 +40,18 @@ export default function Details() {
     {
       name: "Javascript",
       icon: <IconBrandJavascript />
+    },
+    {
+      name: "Vercel",
+      icon: <IconBrandVercel />
+    },
+    {
+      name: "Framer Motion",
+      icon: <IconBrandFramerMotion />
+    },
+    {
+      name: "Git",
+      icon: <IconBrandGit />
     },
   ];
 
