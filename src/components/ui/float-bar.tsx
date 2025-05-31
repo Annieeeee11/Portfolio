@@ -8,7 +8,7 @@ export function FloatingDockDemo() {
     <div>
       <div className="flex justify-center">
         <div className="flex items-center justify-center">
-          <FloatingDock mobileClassName="translate-y-20" items={links} />
+          <FloatingDock mobileClassName="mx-auto" items={links} />
         </div>
       </div>
     </div>
