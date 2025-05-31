@@ -81,10 +81,10 @@ export default function Details() {
 
     const projects = [
         {
-          name: "Project",
+          name: "Yo_library",
           description: "Coming Soon..",
-          tech: "Reactjs, tailwindcss, typescript",
-          year: "2024",
+          tech: "Nextjs, Tailwindcss, Typescript, Shadcn",
+          year: "2025",
           link: "https://github.com/Annieeeee11" 
         },
         {
@@ -97,7 +97,7 @@ export default function Details() {
           {
             name: "Project",
             description: "Coming Soon..",
-            tech: "Nextjs, tailwindcss, typescript",
+            tech: "Rectjs, tailwindcss, typescript",
             year: "2024",
             link: "https://github.com/Annieeeee11"
           },
