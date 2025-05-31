@@ -53,7 +53,7 @@ export default function Details() {
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.linkedin.com/in/vaanya-g-165b33278/",
+      href: "#",
     },
 
     {
